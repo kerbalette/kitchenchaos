@@ -948,6 +948,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8098431583618907269, guid: 822e8a4edba49564ead449374e34b4c9,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 4881153935812844740, guid: 7b6c6e0da40565e41bc88fc92d72129b,
+        type: 3}
+    - target: {fileID: 8098431583618907269, guid: 822e8a4edba49564ead449374e34b4c9,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 6d88fb0237dca9047b5c8da6e0234ae3,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1071,6 +1083,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 8098431583618907269, guid: 822e8a4edba49564ead449374e34b4c9,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ecfd6316149f0f40ba4bfbfc2170b4b,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
