@@ -389,6 +389,18 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &332085419 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8098431583618907269, guid: 822e8a4edba49564ead449374e34b4c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2006827387}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4f1c8d4233064e42b27e695fbcf4f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1085,10 +1097,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8098431583618907269, guid: 822e8a4edba49564ead449374e34b4c9,
         type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098431583618907269, guid: 822e8a4edba49564ead449374e34b4c9,
+        type: 3}
       propertyPath: kitchenObjectSO
       value: 
       objectReference: {fileID: 11400000, guid: 3ecfd6316149f0f40ba4bfbfc2170b4b,
         type: 2}
+    - target: {fileID: 8098431583618907269, guid: 822e8a4edba49564ead449374e34b4c9,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 332085419}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
