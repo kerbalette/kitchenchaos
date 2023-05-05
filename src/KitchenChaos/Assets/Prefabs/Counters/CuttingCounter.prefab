@@ -110,7 +110,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counterTopPoint: {fileID: 7809279010441868670}
-  cutKitchenObjectSO: {fileID: 11400000, guid: a7447a253531954459eebac8bb9d0021, type: 2}
+  cuttingRecipeSOArray:
+  - {fileID: 11400000, guid: 93ce9bfcb1b736646891ae018018fa46, type: 2}
+  - {fileID: 11400000, guid: 04c180ce94ac6f14d8f80992750942fd, type: 2}
+  - {fileID: 11400000, guid: 090b79f1a861eb0408a81d32a63c17b8, type: 2}
 --- !u!4 &7809279010441868670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5923968999094666263, guid: 81898e711c14cbc469e77192cb718739,
@@ -125,6 +128,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1368020814857724621}
     m_Modifications:
+    - target: {fileID: 2513651689412138050, guid: d72bee846803d074784ffb8f64e993ca,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 4171094756720850327, guid: d72bee846803d074784ffb8f64e993ca,
         type: 3}
       propertyPath: m_IsActive
@@ -215,6 +223,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6016978675324250517, guid: d72bee846803d074784ffb8f64e993ca,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 7398771634956237162, guid: d72bee846803d074784ffb8f64e993ca,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 8101788021821549737, guid: d72bee846803d074784ffb8f64e993ca,
         type: 3}
       propertyPath: m_IsActive
