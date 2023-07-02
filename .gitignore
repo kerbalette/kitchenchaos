@@ -44,3 +44,6 @@ sysinfo.txt
 # Remove Log files
 Platformer/Logs/*
 *.log
+
+# Remove Layout changes
+default-2022.dwlt
