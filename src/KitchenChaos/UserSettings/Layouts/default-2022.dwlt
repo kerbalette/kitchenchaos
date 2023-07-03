@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3440
     height: 1357
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 89
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2741
+    width: 2740
     height: 1307
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
@@ -162,7 +162,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2741
+    width: 2740
     height: 789
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -193,7 +193,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 789
-    width: 2741
+    width: 2740
     height: 518
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
@@ -242,7 +242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1035
     y: 0
-    width: 1706
+    width: 1705
     height: 518
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -268,12 +268,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 2741
+    x: 2740
     y: 0
-    width: 699
+    width: 700
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -302,7 +302,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 2740
+    width: 2739
     height: 768
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -623,9 +623,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.0558853, y: -3.65035, z: 4.5610642}
+    m_Target: {x: 5.93181, y: -6.379463, z: 2.494826}
     speed: 2
-    m_Value: {x: 6.0558853, y: -3.65035, z: 4.5610642}
+    m_Value: {x: 5.9318094, y: -6.379463, z: 2.4948263}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -673,11 +673,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.22071013, y: 0.40091518, z: -0.10016669, w: 0.8835001}
     speed: 2
-    m_Value: {x: 0.22070442, y: 0.4009048, z: -0.1001641, w: 0.8834773}
+    m_Value: {x: 0.22071013, y: 0.4009152, z: -0.10016669, w: 0.88350016}
   m_Size:
-    m_Target: 9.857185
+    m_Target: 12.873859
     speed: 2
-    m_Value: 9.857185
+    m_Value: 13.480481
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -966,7 +966,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 88deffff
+      m_ExpandedIDs: 0afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1035
     y: 862
-    width: 1704
+    width: 1703
     height: 497
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1051,7 +1051,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 38060000
     m_LastClickedID: 1592
-    m_ExpandedIDs: 00000000da810000dc810000de810000e0810000e2810000e4810000e6810000e8810000ea810000ec810000ee810000
+    m_ExpandedIDs: 000000001a7a00001c7a00001e7a0000207a0000227a0000247a0000267a0000287a00002a7a00002c7a00002e7a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1079,7 +1079,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 72.54822}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000da810000dc810000de810000e0810000e2810000e4810000e6810000e8810000ea810000ec810000ee810000
+    m_ExpandedIDs: ffffffff000000001a7a00001c7a00001e7a0000207a0000227a0000247a0000267a0000287a00002a7a00002c7a00002e7a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1229,9 +1229,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2741
+    x: 2740
     y: 73
-    width: 698
+    width: 699
     height: 1286
   m_SerializedDataModeController:
     m_DataMode: 0
