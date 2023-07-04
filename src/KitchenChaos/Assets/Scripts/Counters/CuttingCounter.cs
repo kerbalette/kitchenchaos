@@ -6,6 +6,11 @@ using UnityEngine;
 public class CuttingCounter : BaseCounter, IHasProgress {
 
     public static event EventHandler OnAnyCut;
+
+    new public static void ResetStaticData() {
+        OnAnyCut = null;
+    }
+    
     public class OnProgressChangesEventArgs {
         public float progressNormalized;
     }
@@ -69,6 +74,7 @@ public class CuttingCounter : BaseCounter, IHasProgress {
             cuttingProgress++;
             
             OnCut?.Invoke(this, EventArgs.Empty);
+            Debug.Log(OnAnyCut.GetInvocationList().Length);
             OnAnyCut?.Invoke(this, EventArgs.Empty);
 
             CuttingRecipeSO cuttingRecipeSO = GetCuttingRecipeSOWithInput(GetKitchenObject().GetKitchenObjectSO());
